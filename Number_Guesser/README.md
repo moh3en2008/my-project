@@ -6,7 +6,7 @@ A simple command-line number guessing game built with Python.
 
 The game generates a random number between 1 and 100, and the player tries to guess it.
 
-After each incorrect guess, the game provides a hint to help the player get closer to the correct number.
+After each incorrect guess, the game provides a hint to help the player get closer to the correct number. The player's score is also reduced for each incorrect guess.
 
 ## Features
 
@@ -21,7 +21,7 @@ After each incorrect guess, the game provides a hint to help the player get clos
 
 Make sure Python is installed on your system.
 
-Run the game with:
+Run the main program with:
 
 ```bash
 python main.py
