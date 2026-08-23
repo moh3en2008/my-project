@@ -17,8 +17,8 @@ A simple Rock Paper Scissors game built with Python and Object-Oriented Programm
 My_solutions/
 ├── README.md
 └── src/
-    ├── game.py
-    └── game.ipynb
+    ├── game.py      # Main project
+    └── game.ipynb   # Practice notebook
 ```
 
 ## How to Run
