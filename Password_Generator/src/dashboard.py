@@ -1,5 +1,5 @@
 import streamlit as st
-from src.password_generator import PinCodeGenerator, RandomPasswordGenerator, MemorablePasswordGenerator
+from password_generator import PinCodeGenerator, RandomPasswordGenerator, MemorablePasswordGenerator
 
 
 st.image("./images/banner.jpeg", width=400)
