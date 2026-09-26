@@ -1,5 +1,7 @@
 # 🔐 Password Generator
 
+🚀 **[Live Demo](https://my-project-4kv39ya5cw6rsrc9yrkadx.streamlit.app/)**
+
 A password generator application built with Python and Streamlit.
 
 The project uses Object-Oriented Programming (OOP) to provide three different password generation methods through a simple web interface.
