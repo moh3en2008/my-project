@@ -1,2 +1,2 @@
 streamlit
-nltk
+nltk==3.10.3
