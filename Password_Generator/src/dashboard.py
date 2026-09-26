@@ -1,8 +1,10 @@
 import streamlit as st
+from pathlib import Path
 from password_generator import PinCodeGenerator, RandomPasswordGenerator, MemorablePasswordGenerator
 
 
-st.image("./images/banner.jpeg", width=400)
+BASE_DIR = Path(__file__).resolve().parent.parent
+st.image(BASE_DIR / "images" / "banner.jpeg", width=400)
 st.title(":zap: Password Generator")
 
 option = st.radio(
@@ -31,4 +33,4 @@ elif option == 'Memorable Password':
     generator = MemorablePasswordGenerator(num_of_words, separator, capitalization)
 
 password = generator.generate()
-st.write(f"Your password is: `{password}` ")
+st.write(f"Your password is: ```{password}``` ")
